@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@300;400;500;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <button type="button" id="open">Abrir o modal</button>
+
+    <div class="wrapper-container hidden">
+      <div class="wrapper">
+        <h3>Esse é o modal</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vel
+          iste ipsa veniam mollitia, earum eveniet deleniti molestias facilis
+          libero reiciendis facere maiores tempora expedita recusandae et est
+          quisquam pariatur!
+        </p>
+        <button type="button" id="close">Sair do modal</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
